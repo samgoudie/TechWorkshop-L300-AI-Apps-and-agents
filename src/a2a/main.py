@@ -2,7 +2,6 @@ import os
 import logging
 from contextlib import asynccontextmanager
 from pathlib import Path
-
 import httpx
 from fastapi import FastAPI, Request
 from fastapi.staticfiles import StaticFiles
